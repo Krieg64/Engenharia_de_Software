@@ -1,4 +1,4 @@
-<h1>Engenharia de software</h1>
+i<h1>Engenharia de software</h1>
 
 👨‍💻 Roadmap Completo de Engenharia de Software (4 Anos | 3h/dia)
 
@@ -309,9 +309,4 @@
 
 [ ] Prática: Codewars, LeetCode, HackerRank
 
-
-
----
-
-Bons estudos e siga firme! Você está construindo sua própria faculdade particular de software. 💪
 
