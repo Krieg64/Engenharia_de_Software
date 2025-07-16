@@ -2,13 +2,6 @@
 
 👨‍💻 Roadmap Completo de Engenharia de Software (4 Anos | 3h/dia)
 
-Este repositório contém um plano de estudos completo para se tornar um Engenheiro de Software profissional em até 4 anos, estudando 3 horas por dia. Ele é estruturado como uma faculdade real, com teoria, prática, projetos, livros, cursos recomendados e revisões.
-
-> 📌 Organize seu estudo com um check list por semestre. Marque os tópicos à medida que concluir.
-
-
-
-
 ---
 
 📅 Ano 1 — Fundamentos da Computação e Lógica de Programação
