@@ -1,58 +1,62 @@
-Nosso sistema é decimal. 0,1,2,3,4,5,6,7,8,9.
-sistema posicional
-583 - 5 centenas + 8 dezenas + 3 unidades
-583 = 500 X 80 x 3
-583 = 5 x 100 + 8 x 10 + 3 x 1
-583 = 5 x 10^2 + 8 x 10^1 + 3 x 10^0
+📘 SISTEMA DECIMAL
 
-6807 = 6000 + 800 + 7
-6807 = 6 x 1000 + 8 x 100 + 0 x 10 + 7 x 1
-6807 = 6 x 10^3 + 8 x 10^2 + 0 x 10^1 + 7 x 10^0
+Nosso sistema é decimal: usa os dígitos de 0,1,2,3,4,5,6,7,8,9.
 
-Sistema Binário
-somente 2 algarismos 0,1.
+➡️ Sistema posicional:
+Exemplo: 583  
+583 → 5 centenas + 8 dezenas + 3 unidades  
+583 → 5 × 100 + 8 × 10 + 3 × 1  
+583 → 5 × 10^2 + 8 × 10^1 + 3 × 10^0
 
-No sistema Decimal usa-se potencias de 10.
+Outro exemplo: 6807  
+6807 → 6 × 1000 + 8 × 100 + 0 × 10 + 7 × 1  
+6807 → 6 × 10^3 + 8 × 10^2 + 0 × 10^1 + 7 × 10^0
 
-1, 10, 100, 1000 e etc.
 
-No sistema Binário usa-se potencias de 2.
+📘 SISTEMA BINÁRIO
 
-2, 4, 8, 16, 32, 64 e etc.
+No binário só existem 2 algarismos: 0 e 1.
 
-vamos representar o numero binário:
+🔹 Decimal usa potências de 10:  
+10^0 = 1, 10^1 = 10, 10^2 = 100...
 
-10010 = 1 x 2^4 + 0 x 2^3 + 0 x 2^2 + 1 x 2^1 + 0 x 2^0
-10010 = 16 + 0 + 0 + 2 + 0 = 18
+🔹 Binário usa potências de 2:  
+2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 8...
 
-11101110 = 1 x 2^7 + 1 x 2^6 + 1 x 2^5 + 0 x 2^4 + 1 x 2^3 + 1 x 2^2 + 1 x 2^}1 + 0 x 2^0
-11101110 = 128 + 64 + 32 + 0 + 8 + 4 + 2 + 0
-11101110 = 238 
+📊 Exemplos de conversão binária:
 
-Transformar número Binário para Decimal
+10010 =  
+→ 1 × 2^4 + 0 × 2^3 + 0 × 2^2 + 1 × 2^1 + 0 × 2^0  
+→ 16 + 0 + 0 + 2 + 0 = 18
 
-número 25 será o exmplo.
+11101110 =  
+→ 1 × 2^7 + 1 × 2^6 + 1 × 2^5 + 0 × 2^4 + 1 × 2^3 + 1 × 2^2 + 1 × 2^1 + 0 × 2^0  
+→ 128 + 64 + 32 + 0 + 8 + 4 + 2 + 0 = 238
 
-Divisão sucessivas por 2
+
+📘 BINÁRIO → DECIMAL (Método da Divisão Sucessiva)
 Nesse método utiliza-se a divisão por 2, utilizando sempre o resto pra descrever o número binário.
 
-25 / 2 = 12 com resto 1 
-12 / 2 = 6 com resto 0
-6 / 2 = 3 com resto 0
-3 / 2 = 1 com resto 1
-1 / 2 = 0 com resto 1
+Exemplo: número 25
 
-Potência de 2
+→ 25 ÷ 2 = 12 resto 1  
+→ 12 ÷ 2 = 6 resto 0  
+→ 6 ÷ 2 = 3 resto 0  
+→ 3 ÷ 2 = 1 resto 1  
+→ 1 ÷ 2 = 0 resto 1  
+
+OBS: o número binário começa de baixo pra cima nos restos.
+
+Resultado: 11001
+
+
+📘 BINÁRIO → DECIMAL (Potência de 2)
 Nesse método utiliza-se o primeira potência de 2 menor que o número escolhido.
 
-potência de 2:
-1, 2, 4, 8 , 16, 32, 64 e etc.
+Número: 25  
+Potências de 2 disponíveis: 1, 2, 4, 8, 16, 32
 
-Utiliza-se do maior pro menor.
-
-32 | 16 | 8 | 4 | 2 | 1
-
-O primeiro menor número 25 é 16
+→ O primeiro menor número 25 é 16
 
  2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0
   32 | 16  |  8  |  4  |  2  |  1  
@@ -79,13 +83,13 @@ fazemos o mesmo pra próxima posição equivalente ao 2, 24 + 2 = 26 sendo maior
 
 fazendo a próxima posição, 24 + 1 = 25, assim transformando o número, colocando o número 1
 
- 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0
-  32 | 16  |  8  |  4  |  2  |  1  
-  0  |  1  |  1  |  0  |  0  |  1  
+Resultado final:
+ 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0  
+  32 |  16 |   8 |   4 |   2 |   1  
+   0 |   1 |   1 |   0 |   0 |   1  → 11001
 
-obtemos o número 11001:
 
-e se fosse o número 24:
+📘e se fosse o número 24:
 
  2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0
   32 | 16  |  8  |  4  |  2  |  1  
@@ -99,37 +103,37 @@ a soma de 16 + 8 da deu 24 então já chegamos o restante completa com 0
 
 chegando no número 11000:
 
-Escrevendo sequência de números binários:
 
-0000 = 0
-0001 = 1
-0010 = 2
-0011 = 3
-0100 = 4
-0101 = 5
-0110 = 6
-0111 = 7
-1000 = 8
+📘 TABELA BINÁRIA (0 a 9)
+
+0000 = 0  
+0001 = 1  
+0010 = 2  
+0011 = 3  
+0100 = 4  
+0101 = 5  
+0110 = 6  
+0111 = 7  
+1000 = 8  
 1001 = 9
 
-3 curiosidades dos números binários
 
-1 - todo número binário diferente de 0 começa em 1
+📘 CURIOSIDADES SOBRE BINÁRIOS
 
-2 - se o número termina em 0 ele é par, e se termina em 1 ele é impar.
+1️⃣ Todo número binário diferente de 0 começa com 1  
+2️⃣ Se termina em 0, é par — se termina em 1, é ímpar  
+3️⃣ A sequência “10” na base X equivale ao número X na base 10:
 
-3 - A sequência 10 na base x equivale ao número x na base 10.
-10₁₀ = 10₁₀
-10₂ = 2₁₀
-10₈ = 8₁₀
-10₅ = 5₁₀
-10₉ = 9₁₀
+- 10₁₀ = 10₁₀
+- 10₂ = 2₁₀
+- 10₈ = 8₁₀
+- 10₅ = 5₁₀
+- 10₉ = 9₁₀
 
-4 - Potências de 2 são representadas por 1 seguido de 0:
+4️⃣ Potências de 2 são representadas por 1 seguido de 0:
 
-Decimal       |       Binária
-10^1 = 10     |   2^1 = 2 = 10   
-10^2 = 100    |   2^2 = 4 = 100
-10^3 = 1000   |   2^3 = 8 = 1000
-10^4 = 10000  |   2^4 = 16 = 10000
- 
+Decimal       →       Binária  
+10^1 = 10     →   2^1 = 2 = 10  
+10^2 = 100    →   2^2 = 4 = 100  
+10^3 = 1000   →   2^3 = 8 = 1000  
+10^4 = 10000  →   2^4 = 16 = 10000
