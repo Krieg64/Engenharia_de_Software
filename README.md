@@ -8,8 +8,8 @@ i<h1>Engenharia de software</h1>
 
 ✅ 1º Semestre
 
-[ ] Matemática Discreta I
-  ° Números Binários(Engenharia_de_Software/Numeros Binários)
+[ ] Matemática Discreta I<n>
+  [° Números Binários](Engenharia_de_Software/Numeros Binários)
 
 [ ] Conjuntos, relações e operações
 
