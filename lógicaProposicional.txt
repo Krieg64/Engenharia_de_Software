@@ -1,3 +1,14 @@
-<h1>Lógica Proposicional</h1>
+Lógica Proposicional
 
 É uma oração declarativa, com sentido lógico completo, que pode ser somente dois valores(falso ou verdadeiro).
+
+Ela precisa ter um sentido próprio.
+
+Ex: 2 + 3 = 4
+
+Você sabe que é falsa mais entende o sentido da operação.
+
+BH é capital de Minas Gerais.
+Existe vida em outros planetas.
+
+São orações com sentido completo.
