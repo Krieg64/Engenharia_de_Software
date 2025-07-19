@@ -1,1 +1,3 @@
-t
+<h1>Lógica Proposicional</h1>
+
+É uma oração declarativa, com sentido lógico completo, que pode ser somente dois valores(falso ou verdadeiro).
