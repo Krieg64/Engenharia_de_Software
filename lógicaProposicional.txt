@@ -9,6 +9,80 @@ Ex: 2 + 3 = 4
 Você sabe que é falsa mais entende o sentido da operação.
 
 BH é capital de Minas Gerais.
-Existe vida em outros planetas.
+Existe vida em outros planetas. "Tem vida em outro planeta ou não tem" não é algo meio termo.
 
 São orações com sentido completo.
+
+Princípio da Identidade:
+Uma proposição é verdadeira => verdadeira, uma proposição é falsa => falsa.
+
+Princípio da Não contradição:
+
+Nenhuma proposição pode ser verdadeira e falsa ao mesmo tempo.
+
+Princípio do Terceiro excluido:
+
+toda proposição precisa ser verdadeira ou falsa, não tendo uma terceira opção.
+
+Representando proposições:
+
+Normalmente usa-se letras para representar.
+
+Ex: P, Q, R, S, T e etc.
+
+mas pode ser usar qualquer letra, minuscula ou maiuscula.
+
+P: 2 + 4 = 6
+
+Q: A casa de João é amarela.
+
+O que é e o que não é uma proposição?
+
+proposição precisa ter sentido completo.
+
+Ex: O meu quarto é bonito.
+Proposição
+
+Ex: Quarto bonito.
+não é proposição.
+
+Frases nominais não são proposição.
+
+Ex: O grande elefante cinzento. Observe que não tem verbo na frase, então você não pode dizer se é verdadeiro ou não.
+
+Oração exclamativa não são proposição.
+
+Ex: Viva o Brasil!
+
+Oração Interrogativa não são proposição.
+
+Ex: Que dia é hoje?
+não da pra dizer ou saber se é falsa.
+
+Oração imperativa não são proposição.
+
+Ex: Me ajude. Joque o lixo pra fora.
+
+Oração sem sujeito determinado não são proposição.
+
+Ex: Aquela pessoa estava na cena do crime. não sei quem é o sujeito.
+
+OBS: "João gosta de futebol.Ele é meu amigo", "ele é meu amigo" é uma proposição pois se refere ao joão.
+
+Senteças abertas não são proposição.
+
+Ex: x + 3 = 5 não consigo dizer se é ou não falso se x + 3 = 5
+
+Oração que são uma contradição em si mesmas não são proposição.
+
+Ex: Essa declaração é falsa.
+
+Ex: Este circulo é um quadrado.
+
+Ex: Estou acordado e dormindo ao mesmo tempo.
+
+
+
+
+
+
