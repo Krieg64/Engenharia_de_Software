@@ -81,8 +81,75 @@ Ex: Este circulo é um quadrado.
 
 Ex: Estou acordado e dormindo ao mesmo tempo.
 
+Proposição simples e composta, tabela verdade
 
+Proposição Simples
 
+as proposições simples não contém nenhuma outra proposição fazendo parte integrante de si mesma, ou seja, elas não podem ser divididas em proposições menores.
+
+Ex:  2 + 2 = 5
+    A terra é azul.
+    Todo homem é mortal.
+
+Proposição Composta
+
+As proposições compostas são formadas por dus ou mais proposição simples ligadas por conectivos lógicos(Também chamados de operadores lógicos).
+
+Ex: João é professor E̲ maria é médica.
+    Vou a feria comprar laranja O̲U vou a uma farmácia comprar remédios.
+    O̲U eu vou ao cinema O̲U eu vou ao teatro.
+    S̲E chover E̲N̲T̲Ã̲O eu vou ao cinema.
+    Eu vou passar de ano S̲E, E̲ S̲O̲M̲E̲N̲T̲E S̲E, eu estudar.
+
+Para sabermos se uma proposição composta é verdadeira ou falsa precisamos saber.
+
+1 -  O valor lógico de cada proposição simples.
+2 - O conector usado para interligar as proposições lógicas simples (E , OU, NÃO, SE E SOMENTE SE).
+
+Tabelas verdade
+
+È uma tabela que analizamos todas as possibilidades das proposições simples para conhecer o valor lógico da proposição composta.
+
+P  Q  P^Q
+f  f  f
+f  v  f
+v  f  f
+v  v  v
+
+Existe uma analogia entre os valores verdadeiros e falso com os números binários.
+
+Observe que 00=0, 01=1, 10=2, 11=3.
+
+0  0  0
+0  1  0
+1  0  0
+1  1  1
+
+Sem contar o cabeçalho, o número de linhsa da tabela verdade é sempre 2^N onde N é o números de proposição.
+
+Ex: maria é estudiosa e João gosta de brancar.
+São duas proposições simples.
+
+Como o número de linha é 2^N então o número de linhas nesse caso será 4 pois 2^2 = 4.
+
+Ex: Se chover e relampejar então eu vou ao cinema.
+São três proposições simples.
+
+Como o número de linhs é 2^Nwntão o número de linhs nesse caso será 8 posi 2^3 = 8.
+
+P = Chover
+Q = Relampejar
+R = Eu vou ao cinema
+
+P  Q  R  P^Q->R
+f  f  f   f
+f  f  v   f
+f  v  f   f
+f  v  v   f
+v  f  f   f
+v  f  v   f
+v  v  f   f
+v  v  v   v
 
 
 
