@@ -11,10 +11,12 @@ i<h1>Engenharia de software</h1>
 [ ] Matemática Discreta I
 
   [° Números Binários](numerosBinários.txt)
-  [° Lógica Proposicional](lógicaProposicional.txt)
+  
 [ ] Conjuntos, relações e operações
 
 [ ] Lógica proposicional e tabelas verdade
+
+  [° Lógica Proposicional](lógicaProposicional.txt)
 
 [ ] Álgebra booleana
 
