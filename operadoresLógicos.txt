@@ -1,0 +1,213 @@
+Operadores Lógicos
+
+1 - Não
+2 - E (conjunção)
+3 - OU (disjunção)
+4 - OU OU (disjunção exclusiva)
+
+Portas Lógicas
+
+Operador NOT (Não) ~ ¬
+
+Não, Não é verdade que, é falso que, é mentira que
+
+José não gosta de Maria
+Não é verdade que 2 + 2 = 5
+É falso que Pedro joga Futebol
+É mentira que o homem foi para Marte.
+
+P. José gosta de bananas.
+~P. José não gosta de bananas.
+
+Tabela da verdade
+
+P  ~P       ~(~P) = P
+f   v    Não é verdade que eu não gosto de maçã = eu gosto de maçã.
+v   f
+
+    _
+P   P    O não na lógica proposital representamos com o ~,
+        o não lógica booleana representamos com um traço pra cima "^".
+-|>°-  
+
+
+Conjunção: E ou AND
+
+O simbolo é um ^.
+
+E, MAS, TAMBÉM, NEM, TANTO QUANTO.
+
+José gostade bananas e maçãs.
+Pedro trabalha mas não gosta do emprego.
+João não gosta de cebola nem de tomate.
+
+Operador Binário
+
+Na conjunção tem que haver pelo menos 2 proposições.
+
+João gosta de maçãs E
+João gosta de bananas
+
+Tabela verdade  Lógica Booleana
+
+P  Q  P^Q        P  Q  P.Q
+f  f   f         0  0  0
+f  v   f         0  1  0
+v  f   f         1  0  0
+v  v   v         1  1  1
+
+Porta Lógica conjunção
+                            O ponto representa a conjunção que equivale o acento circunflexo na lógica proposicional.
+P __|
+    |     |_____ P.Q
+Q __|     |
+    |
+
+Analogia com conjuntos
+
+Interseção
+
+Alice é bonita e inteligente.
+Alice é bonita
+Alice é inteligente             Só vai ser verdadeiro quando "Alice" for bonita e inteligente
+                                as duas opções tem que ser verdadeiras.
+
+Propriedade Comutativa da conjunção
+
+A propriedade comutativa é aquela Falácia "a ordem dos fatores não altera o produto".
+
+5+3 = 3+5        João vai ao cinema e ao teatro
+5+3 = 8          João vai ao teatro e ao cinema
+3+5 = 8          P^Q =  Q^P
+
+
+Raciocinio lógico
+
+Disjunção exclusiva e disjunção inclusiva
+
+OU ou OR simbolo: v
+
+Disjunção inclusiva
+
+ou alternativamente
+
+1. José foi a feira comprar laranjas ou bananas.
+2. Maria pode usar camisa azul alternativamente camisa vermelha.
+3. Você pode usar livro seja capa dura seja capa mole.
+
+Operador binário
+
+João foi a feira compra laranja
+ou
+comprar maçãs
+
+tabela verdade
+P  Q  PvQ
+f  f   f
+f  v   v
+v  f   v
+v  v   v
+
+A disjunção inclusiva só é falso quando todos forem falso.
+
+porta lógica
+
+        ________
+P -----)        )\
+       )  OR    ) )---- P ∨ Q
+Q -----)________)/
+
+
+P  Q  P+Q
+0  0   0
+0  1   1
+1  0   1
+1  1   1
+
+União de conjuntos
+
+Maria vai ao cinema ou ao teatro
+
+P: Maria vai ao cinema
+Q: Maria vai ao teatro
+
+conjunção comutativa 
+
+P v Q = Q v P
+
+XOR ⊕  V̲
+
+OU OU
+
+Ou Maria vai ao cinema
+Ou Maria vai ao teatro
+
+Operador binário
+
+Disjunção exclusiva
+tabela verdade
+
+P  Q  PV̲Q
+f  f   f
+f  v   v      só pode ser 1 coisaou outra coisa, não pode ser as duas juntas
+v  f   v
+v  v   f
+
+
+porta lógica exclusivo
+
+          ________
+P -----)  )      )\
+       )  )  XOR  ) )---- P V̲ Q
+Q -----)  )______)/
+
+sendo também comutativo
+PV̲Q = QV̲P
+
+Operador Condicional
+
+simbolo = ->
+
+SE P então Q
+
+Operador binário P -> Q 
+P: Antescendente
+Q: Consequente
+
+tabela verdade
+
+Se chover eu vou ao cinema
+
+P: chover
+Q: ir ao cinema
+
+P  Q   P->Q
+f  f   v
+f  v   v      só vai ser falsa quando o antescendente for verdadeiro e o consequente for falsa.
+v  f   f
+v  v   v
+
+não é propriedade comutativa
+
+se chover eu vou ao cinema
+         !=
+Se eu fui ao cinema é porque choveu
+
+
+P -> Q != Q -> P
+
+Operador bicondicional
+
+IFF ou SSE
+
+<-> Operador binário
+
+Se e somente se chover eu vou ao cinema
+
+P  Q  P<->Q
+f  f   v
+f  v   f      propriedade comutativa
+v  f   f      P<->Q = Q<->P
+v  v   v
+
+
