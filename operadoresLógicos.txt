@@ -210,4 +210,52 @@ f  v   f      propriedade comutativa
 v  f   f      P<->Q = Q<->P
 v  v   v
 
+Condição Necessária e Condição Suficiente
+
+Condição suficiente :condição máxima que precisa ser atendida.
+
+P->Q = logo P é uma condição suficiente.
+Ex: Se esta chovendo as ruas estão molhadas.
+Estar chovendo é uma condição suficiente para as ruas estarem molhadas.
+a afirmação não garante que as ruas estejam molhadas.
+
+Condição Necessária
+
+Condição que deve ser verdadeira para que certo resultado ocorra.
+Se a condição necessária não for suficiente o resultado não ocorrerá.
+P->Q 
+Q é uma condição necessária para P.
+Caso Q não ocorra P não ocorrerá.
+Ex: Para uma pessoa ser presidente da república ela precisa ter pelo menos 35 anos.
+
+Se eu estudar eu vou passar.
+P:estudar Q:Passar
+P->Q
+CS Estudar é uma condição suficiente para eu passar
+CN Estudar não é uma condição necessária para eu passar
+mas para eu passar eu necessariamente devo estudar
+
+Condição Necessária e Suficiente
+
+P<->Q = (P->Q)^(Q->P)
+Então posso dizer que P<->Q é necessário e suficiente.
+
+
+Exercicio
+
+P e Q  "Nadar na praia é permitido" e "Foram descobertos tubarões perto da praia".
+
+A) ~Q Não foram descobertos tubarões perto da praia
+B) P^Q Nadar na praia é permitido, e foram descobertos tubarões perto da praia
+C) ~PvQ Nadar na praia não é permitido ou foram descobertos tubarões perto da praia
+D) P->vQ Se nadar na praia é permitido então não foram descobertos tubarões perto da praia
+E) ~Q->P Se tubarões não foram descobertos perto da praia, então nadar na praia é permitido
+F) ^P->vQ Se nadar praia não é permitido então não foram descobertos tubarões perto da praia
+G) P<->vQ Nadar na praia é permitido se e somente se não forem descobertos tubarões perto da praia
+H) vP^(Pv~Q) Nadar na praia não é permitido e ou nadar na praia é permitido ou foram descobertos tubarões perto da praia
+
+P:Você dirige a mais de 104km/h
+Q: Você recebe uma multa por excesso de velocidade
+
+
 
