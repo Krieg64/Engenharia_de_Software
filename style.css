@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+
+  #botao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 25px;
+    background-color: #F27405;
+    color: #010326;
+    font-size: 16px;
+    border: solid black 1px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: grab;
+    transition: transform 0.4s, background-color 0.2s;
+    user-select: none; 
+  }
+
+  #botao:hover {
+    background-color: #F25C05;
+  }
+
+  #botao:active {
+    transform: scale(1.1);
+    cursor: grabbing;
+  }
+  
+#navhome{
+    height: min-content;
+    display: flex;
+}
+
+#navleft{
+    background-color: antiquewhite;
+    width: 13%;
+}
+
+#quadleft{
+    width: 30%;
+
+}
+
+#navbar{
+    background-color: #F25C05;
+    margin: 0;
+    border: 2px solid black;
+    width: 100%;
+}
+
+#textareacod{
+    width: 100%;
+    height: 100%;
+}
